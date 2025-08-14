@@ -1,0 +1,9 @@
+Descrição de problemas e da solução
+O projeto tem como objetivo criar um sistemas de cadastro de alunos, permitindo que o usuário possa: 
+- cadastrar alunos com as informações nome, matrícula(única), curso e data de nascimento;
+- consultar os dados de um aluno a partir de matrículas;
+- remover um aluno cadastrado pelo número da matrícula;
+A solução foi implementar utilizando estruturas (struct) para representar o aluno, vetores para armazenar os registros e condicionais para coodernar o fluxo e garantir que nãao haja duplicidade de matrícula, mantendo a integridade dos dados
+Como rodr o projeto Pré-requisitos
+- ter um copilador de C instalado
+-terminal ou IDE compatível com C (visual studio code)
