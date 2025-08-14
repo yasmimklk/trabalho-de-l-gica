@@ -7,3 +7,39 @@ A solução foi implementar utilizando estruturas (struct) para representar o al
 Como rodr o projeto Pré-requisitos
 - ter um copilador de C instalado
 -terminal ou IDE compatível com C (visual studio code)
+
+Passos 
+1- clone de repositório
+git clone https://github.com/seu-usuario/seu-repositória.git
+cd seu-repositório
+2- compile o código 
+gcc -o cdastro_aluno cadastro_aluno.c
+3- execute o programa
+./cadastro_aluno
+
+Prints de funcionamento do programa
+sistema de cadastro de aluno
+1. adicionar aluno
+2. consultar aluno
+3. remover aluno
+4. sair
+
+cadastro do aluno
+ digite o nome do aluno: joão da silva
+ digite a matricula do aluno: 123
+ digite o curso do aluno: engenharia
+digite a data de nascimento do aluno (dd/mm/aaaa)
+aluno cadastrado com sucesso!
+
+consulta de aluno
+digite a matricula do aluno que deseja consultar: 123
+noem: joão
+matricula: 123
+curso: engenharia
+data de nascimento: (dd/mm/aaaa)
+
+remoção do aluno
+digite a matricula do aluno que deseja remover; 123
+akuno removido com sucesso!
+
+
